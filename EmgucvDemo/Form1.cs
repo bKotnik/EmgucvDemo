@@ -260,7 +260,7 @@ namespace EmgucvDemo
         {
             try
             {
-                formHarisParameters form = new formHarisParameters(0, 255, 100);
+                formHarisParameters form = new formHarisParameters(0, 255, 170);
                 form.OnApply += ApplyThreshold;
                 form.ShowDialog();
             }
